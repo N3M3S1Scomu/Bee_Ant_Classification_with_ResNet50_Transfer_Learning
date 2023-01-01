@@ -104,6 +104,32 @@ prob_val=np.argmax(preds)
 
 print(preds,pred,prob_val)
 
+################### OUTPUT ############################
+"""
+Epoch 1/10
+8/8 [==============================] - 36s 4s/step - loss: 8.9163 - accuracy: 0.8115 - val_loss: 10.9076 - val_accuracy: 0.9281
+Epoch 2/10
+8/8 [==============================] - 34s 4s/step - loss: 3.3986 - accuracy: 0.9549 - val_loss: 8.1188 - val_accuracy: 0.9346
+Epoch 3/10
+8/8 [==============================] - 33s 4s/step - loss: 1.3309 - accuracy: 0.9754 - val_loss: 8.2169 - val_accuracy: 0.9346
+Epoch 4/10
+8/8 [==============================] - 33s 4s/step - loss: 1.0094 - accuracy: 0.9795 - val_loss: 6.6458 - val_accuracy: 0.9542
+Epoch 5/10
+8/8 [==============================] - 33s 4s/step - loss: 0.9001 - accuracy: 0.9836 - val_loss: 9.8241 - val_accuracy: 0.9085
+Epoch 6/10
+8/8 [==============================] - 33s 4s/step - loss: 1.5812 - accuracy: 0.9795 - val_loss: 7.1233 - val_accuracy: 0.9346
+Epoch 7/10
+8/8 [==============================] - 33s 4s/step - loss: 0.0963 - accuracy: 0.9877 - val_loss: 7.7816 - val_accuracy: 0.9216
+Epoch 8/10
+8/8 [==============================] - 33s 4s/step - loss: 0.2288 - accuracy: 0.9959 - val_loss: 8.0540 - val_accuracy: 0.9346
+Epoch 9/10
+8/8 [==============================] - 33s 4s/step - loss: 0.0407 - accuracy: 0.9959 - val_loss: 8.7465 - val_accuracy: 0.9281
+Epoch 10/10
+8/8 [==============================] - 33s 4s/step - loss: 0.4408 - accuracy: 0.9918 - val_loss: 7.0359 - val_accuracy: 0.9346
+(1, 224, 224, 3)
+1/1 [==============================] - 1s 1s/step
 
+[[0. 1.]] [1] 1
+"""
 
 
